@@ -114,7 +114,6 @@ body {
     font-family: 'Barlow', sans-serif;
     background-color: rgb(245, 222, 243);
     color: grey;
-    padding: 20%;
 }
 
 h1 {
@@ -177,15 +176,20 @@ nav a {
 #apparel {
     display: flex;
     justify-content: space-between;
-    flex-basis: auto;
+    flex-direction: row;
+    margin: 4%;
+    width: 20%;
+    scale: evenly;
 }
 
-#apparel {
-    width: 20%;
+#apparel img {
+    display: inline-block;
+    margin: 2%;
 }
 
 #apparel p {
-    font-size: 2rem;
+    display: flex;
+    font-size: 3rem;
     text-align: center;
     margin-top: 20%;
 }
@@ -193,5 +197,5 @@ nav a {
 footer {
     background-color: rgb(197, 197, 235);
     border-radius: 15%;
-    margin: 4% 0;
+    margin: 4% 2%;
 }
