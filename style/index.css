@@ -199,3 +199,23 @@ footer {
     border-radius: 15%;
     margin: 4% 2%;
 }
+
+@media (max-width: 800px) {
+    .intro p {
+        justify-content: center;
+        margin: 3%;
+    }
+    #apparel p {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    #apparel {
+        width: 50%;
+        flex-direction: column;
+    }
+    #apparel p {
+        font-size: 3rem;
+    }
+}
