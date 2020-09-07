@@ -1,1 +1,230 @@
-/* Add CSS styling here */
+/*CSS styling here */
+
+
+/* Impot fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Barlow&display=swap');
+
+/* Meyers reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+
+/* General styling*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(245, 222, 243);
+    color: grey;
+}
+
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2%;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* styles for the header */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    width: 22%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1% 0;
+    color: rgb(31, 30, 30);
+    background-color: lavender;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.intro p {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    width: 90%;
+    margin: 3%;
+    border-radius: 2%;
+}
+
+#apparel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 4%;
+}
+
+#apparel img {
+    width: 80%;
+}
+
+#apparel h2 {
+    display: flex;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 13%;
+}
+
+#apparel h3 {
+    align-items: center;
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+}
+
+#apparel :hover {
+    color: lavender;
+    background-color: rgb(197, 197, 235);
+}
+
+footer {
+    background-color: rgb(197, 197, 235);
+    border-radius: 15%;
+    margin: 4% 2%;
+}
+
+@media (max-width: 800px) {
+    .intro p {
+        justify-content: center;
+        margin: 3%;
+    }
+    #apparel h2 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    #apparel {
+        width: 50%;
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    #apparel h2 {
+        font-size: 3rem;
+    }
+}
