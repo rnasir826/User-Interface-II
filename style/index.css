@@ -178,13 +178,13 @@ nav a {
     justify-content: space-between;
     flex-direction: row;
     margin: 4%;
-    width: 20%;
     scale: evenly;
 }
 
 #apparel img {
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 2%;
+    width: 90%;
 }
 
 #apparel p {
@@ -192,6 +192,16 @@ nav a {
     font-size: 3rem;
     text-align: center;
     margin-top: 20%;
+}
+
+#apparel h2 {
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+#apparel :hover {
+    color: lavender;
+    background-color: rgb(197, 197, 235);
 }
 
 footer {
@@ -214,6 +224,7 @@ footer {
     #apparel {
         width: 50%;
         flex-direction: column;
+        margin-left: 24%;
     }
     #apparel p {
         font-size: 3rem;
