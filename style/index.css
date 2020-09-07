@@ -175,28 +175,26 @@ nav a {
 
 #apparel {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     margin: 4%;
-    scale: evenly;
 }
 
 #apparel img {
-    /*display: inline-block;*/
-    margin: 2%;
-    width: 90%;
-}
-
-#apparel p {
-    display: flex;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 20%;
+    width: 80%;
 }
 
 #apparel h2 {
+    display: flex;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 13%;
+}
+
+#apparel h3 {
     align-items: center;
     font-size: 1.6rem;
+    margin-bottom: 2%;
 }
 
 #apparel :hover {
@@ -215,7 +213,7 @@ footer {
         justify-content: center;
         margin: 3%;
     }
-    #apparel p {
+    #apparel h2 {
         font-size: 2rem;
     }
 }
@@ -224,9 +222,9 @@ footer {
     #apparel {
         width: 50%;
         flex-direction: column;
-        margin-left: 24%;
+        margin-left: 25%;
     }
-    #apparel p {
+    #apparel h2 {
         font-size: 3rem;
     }
 }
